@@ -11,3 +11,5 @@ function mystery(a) {
     else return a[0];
 }
 ```
+
+This uses a recursive call to find the highest number in the array and puts it in a[0].
