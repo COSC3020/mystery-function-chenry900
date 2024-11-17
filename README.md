@@ -11,3 +11,4 @@ function mystery(a) {
     else return a[0];
 }
 ```
+it returns a number larger than the first number in an array or it returns the first number in the array
