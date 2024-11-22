@@ -11,4 +11,5 @@ function mystery(a) {
     else return a[0];
 }
 ```
-it returns a number larger than the first number in an array or it returns the first number in the array
+if the array is size one it returns the only number in the array, if it is bigger than that then it recursivly calls the function slicing off the first number until
+it finds the largest number then returns that number. So it basically just uses recursion to find the biggest number in the array.
